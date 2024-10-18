@@ -1,0 +1,22 @@
+body {
+  background-color: #e6fffd;
+}
+.headings {
+  color: #16516e;
+  font-weight: 900;
+  font-size: 40;
+}
+#box {
+  border: 5px solid #2176a0;
+  margin: 15px;
+  padding: 10px;
+  box-shadow: 0 1px 5px grey, 0 -1px 5px grey, 1px 0 5px grey, -1px 0 5px grey; left shadow
+}
+ /* box-shadow:0 5px 3px grey,5px 0 3px grey,-5px 0 3px grey, 0 -5px 3px grey; */
+.subheadings {
+  color: #0b3258;
+  font-size: 23px;
+}
+#captalize{
+  text-transform:uppercase;
+}

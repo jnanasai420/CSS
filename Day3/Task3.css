@@ -1,0 +1,32 @@
+div {
+  display: inline-block;
+  margin-top: 100px;
+  background-color: rgb(6, 108, 108);
+  color: white;
+  border-color: rgb(56, 168, 168);
+  border-style: solid;
+  border-width: 10px;
+  border-top-color: red;
+  border-bottom-color: yellow;
+  border-left-color: rgb(32, 32, 3);
+  border-right-color: aqua;
+  /* padding-left: 50%;
+  padding-top: 5%;
+  padding-bottom: 10%; */
+  padding: 20px 20px 20px 20px;
+  padding-left: 40%;
+  margin: 30px 30px 30px 30px;
+  /* margin-top: ;
+  margin-bottom:;
+  margin-left: ;
+  margin-right: ; */
+  /* box-sizing: border-box; */
+}
+p {
+  background-color: aquamarine;
+  color: white;
+}
+span {
+  background-color: bisque;
+  color: white;
+}

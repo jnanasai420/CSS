@@ -1,0 +1,66 @@
+.image {
+  background-image: url(https://static.toiimg.com/thumb/msid-114304592,width-400,resizemode-4/114304592.jpg);
+}
+#heading {
+  font-style: italic;
+  font-weight: 900;
+  font-size: 50px;
+  text-align: center;
+  color: white;
+  text-decoration: underline;
+}
+#p1 {
+  text-align: right;
+  color: white;
+  text-transform: capitalize;
+  text-shadow: 2px 2px 3px white;
+}
+#p2 {
+  text-align: center;
+  color: white;
+  text-shadow: 2px 2px 3px white;
+}
+#p3 {
+  text-align: left;
+  color: white;
+  text-transform: uppercase;
+  text-shadow: 2px 2px 3px white;
+}
+#heading1 {
+  background-image: linear-gradient(to right, orange, orangered);
+  text-align: center;
+  color: white;
+}
+.gym {
+  /* align-self: center; */
+  height: 305px;
+  width: 400px;
+  /* align-items: center; */
+  border: 2px solid rgb(32, 97, 140);
+  margin: auto;
+}
+img {
+  width: 400px;
+  margin-left: 0px;
+}
+p {
+  font-size: 20px;
+  padding-left: 40px;
+}
+#pp1 {
+  padding-left: 140px;
+  color: rgb(20, 147, 147);
+  font-size: 25px;
+  font-weight: 700;
+}
+#basic {
+  padding-left: 85px;
+}
+#grad {
+  background-image: linear-gradient(
+    to right bottom,
+    rgba(13, 218, 187, 0.92),
+    rgb(127, 201, 231),
+    white
+  );
+}
