@@ -1,0 +1,69 @@
+.header {
+  width: 100%;
+  height: 100px;
+  border: 2px solid black;
+  background: linear-gradient(
+    to right bottom,
+    rgb(180, 128, 33),
+    rgb(101, 73, 20)
+  );
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.leftheader {
+  font-size: 35px;
+
+  justify-content: flex-start;
+}
+.rightheader {
+  font-size: 25px;
+  display: flex;
+
+  gap: 30px;
+}
+a {
+  color: white;
+  text-decoration: none;
+}
+body {
+  background-color: bisque;
+}
+.bodycontainer {
+  height: auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+.card {
+  margin-top: 20px;
+  width: 305px;
+  border: 1px solid black;
+  padding: 10px;
+  text-align: center;
+  border-radius: 10px;
+  box-shadow: 0px 3px 2px rgb(194, 128, 6), 3px 0px 2px rgb(194, 128, 6),
+    -3px 0px 2px rgb(194, 128, 6), 0px -3px 2px rgb(194, 128, 6);
+}
+img {
+  border-radius: 5px;
+  width: 305px;
+}
+.footer {
+  width: 100%;
+  height: 70px;
+  border: 2px solid black;
+  background: linear-gradient(
+    to right bottom,
+    rgb(180, 128, 33),
+    rgb(101, 73, 20)
+  );
+
+  color: white;
+  text-align: center;
+  margin-top: 20px;
+  padding-top: 20px;
+}
+.card1 {
+  background-color: rgb(223, 189, 145);
+}
