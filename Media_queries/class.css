@@ -1,0 +1,59 @@
+body {
+  background-color: antiquewhite;
+}
+p {
+  font-size: 5rem;
+}
+img {
+  boder: 2px solid black;
+  /* height: 300px; */
+  width: 20vw;
+}
+@media screen and (max-width: 400px) {
+  body {
+    background-color: aqua;
+  }
+  p {
+    font-size: 1rem;
+  }
+  img {
+    border-radius: 5%;
+    /* width: 20vw; */
+  }
+}
+@media screen and (min-width: 401px) and (max-width: 720px) {
+  body {
+    background-color: red;
+  }
+  p {
+    font-size: 2rem;
+  }
+  img {
+    border-radius: 15%;
+    /* width: 30vw; */
+  }
+}
+@media (min-width: 721px) and (max-width: 1030px) {
+  body {
+    background-color: brown;
+  }
+  p {
+    font-size: 3rem;
+  }
+  img {
+    border-radius: 30%;
+    /* width: 40vw; */
+  }
+}
+@media (min-width: 1031px) and (max-width: 1440px) {
+  body {
+    background-color: darkcyan;
+  }
+  p {
+    font-size: 4rem;
+  }
+  img {
+    border-radius: 50%;
+    /* width: 50vw; */
+  }
+}
