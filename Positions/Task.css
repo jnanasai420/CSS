@@ -1,0 +1,31 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+img {
+  width: 50px;
+  height: 50px;
+  border-radius: 50px;
+}
+
+.nav {
+  position: fixed;
+  width: 100%;
+  height: 100px;
+  background-color: aqua;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.navleft {
+  display: flex;
+  align-items: center;
+  column-gap: 30px;
+}
+.navright {
+  display: flex;
+  column-gap: 40px;
+}
+.matter {
+  padding-top: 110px;
+}
