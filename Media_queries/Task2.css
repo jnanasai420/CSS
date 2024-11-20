@@ -1,3 +1,6 @@
+* {
+  margin: 0;
+}
 body {
   background-color: aliceblue;
   border: 2px solid rgb(5, 3, 3);
@@ -24,29 +27,33 @@ img {
     gap: 20px;
     align-items: center;
   }
-  .child {
-  }
-
-  .doggle-entity {
-    display: block;
-  }
-
   .child-1 {
     display: none;
     align-items: center;
     gap: 20px;
-  }
-  .doggle:checked ~.child-1{
-    display: flex;
+    position: absolute;
+    top: 40px;
+    background-color: black;
+    color: white;
     flex-direction: column;
+
+    width: 100%;
   }
-    img {
-      width: 40px;
-      height: 40px;
-      border-radius: 50%;
-    }
+  .doggle:checked ~ .child-1 {
+    display: flex;
+  }
+  .doggle-entity {
+    display: block;
+  }
+
+  img {
+    display: none;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
   }
 }
+
 @media (min-width: 401px) and (max-width: 800px) {
   body {
     background-color: red;
@@ -90,6 +97,10 @@ img {
     font-weight: bold;
     justify-content: space-between;
   }
+  .child {
+    display: flex;
+    align-items: center;
+  }
 }
 @media (min-width: 1200px) {
   body {
@@ -106,5 +117,9 @@ img {
     font-weight: 700;
     gap: 30px;
     font-size: 30px;
+  }
+  .child {
+    display: flex;
+    align-items: center;
   }
 }
